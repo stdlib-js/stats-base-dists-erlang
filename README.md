@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.erlang;
+})();
 })();
 </script>
 ```
@@ -142,9 +144,11 @@ var y = dist.logpdf( 0.8 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( erlang ) );
 
+})();
 })();
 </script>
 </body>
@@ -236,31 +240,31 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/erlang/ctor]: https://github.com/stdlib-js/stats-base-dists-erlang-ctor/tree/umd
+[@stdlib/stats/base/dists/erlang/ctor]: https://github.com/stdlib-js/stats-base-dists-erlang-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/entropy]: https://github.com/stdlib-js/stats-base-dists-erlang-entropy/tree/umd
+[@stdlib/stats/base/dists/erlang/entropy]: https://github.com/stdlib-js/stats-base-dists-erlang-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/kurtosis]: https://github.com/stdlib-js/stats-base-dists-erlang-kurtosis/tree/umd
+[@stdlib/stats/base/dists/erlang/kurtosis]: https://github.com/stdlib-js/stats-base-dists-erlang-kurtosis/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/mean]: https://github.com/stdlib-js/stats-base-dists-erlang-mean/tree/umd
+[@stdlib/stats/base/dists/erlang/mean]: https://github.com/stdlib-js/stats-base-dists-erlang-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/mode]: https://github.com/stdlib-js/stats-base-dists-erlang-mode/tree/umd
+[@stdlib/stats/base/dists/erlang/mode]: https://github.com/stdlib-js/stats-base-dists-erlang-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/skewness]: https://github.com/stdlib-js/stats-base-dists-erlang-skewness/tree/umd
+[@stdlib/stats/base/dists/erlang/skewness]: https://github.com/stdlib-js/stats-base-dists-erlang-skewness/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/stdev]: https://github.com/stdlib-js/stats-base-dists-erlang-stdev/tree/umd
+[@stdlib/stats/base/dists/erlang/stdev]: https://github.com/stdlib-js/stats-base-dists-erlang-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/variance]: https://github.com/stdlib-js/stats-base-dists-erlang-variance/tree/umd
+[@stdlib/stats/base/dists/erlang/variance]: https://github.com/stdlib-js/stats-base-dists-erlang-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/cdf]: https://github.com/stdlib-js/stats-base-dists-erlang-cdf/tree/umd
+[@stdlib/stats/base/dists/erlang/cdf]: https://github.com/stdlib-js/stats-base-dists-erlang-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/logpdf]: https://github.com/stdlib-js/stats-base-dists-erlang-logpdf/tree/umd
+[@stdlib/stats/base/dists/erlang/logpdf]: https://github.com/stdlib-js/stats-base-dists-erlang-logpdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/mgf]: https://github.com/stdlib-js/stats-base-dists-erlang-mgf/tree/umd
+[@stdlib/stats/base/dists/erlang/mgf]: https://github.com/stdlib-js/stats-base-dists-erlang-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/pdf]: https://github.com/stdlib-js/stats-base-dists-erlang-pdf/tree/umd
+[@stdlib/stats/base/dists/erlang/pdf]: https://github.com/stdlib-js/stats-base-dists-erlang-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/erlang/quantile]: https://github.com/stdlib-js/stats-base-dists-erlang-quantile/tree/umd
+[@stdlib/stats/base/dists/erlang/quantile]: https://github.com/stdlib-js/stats-base-dists-erlang-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
