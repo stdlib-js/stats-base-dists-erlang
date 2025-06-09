@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -26,9 +26,9 @@
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#3569](https://github.com/stdlib-js/stdlib/issues/3569), [#3570](https://github.com/stdlib-js/stdlib/issues/3570), [#3572](https://github.com/stdlib-js/stdlib/issues/3572), [#3574](https://github.com/stdlib-js/stdlib/issues/3574), [#3577](https://github.com/stdlib-js/stdlib/issues/3577), [#3578](https://github.com/stdlib-js/stdlib/issues/3578), [#3579](https://github.com/stdlib-js/stdlib/issues/3579)
+[#3569](https://github.com/stdlib-js/stdlib/issues/3569), [#3570](https://github.com/stdlib-js/stdlib/issues/3570), [#3572](https://github.com/stdlib-js/stdlib/issues/3572), [#3574](https://github.com/stdlib-js/stdlib/issues/3574), [#3577](https://github.com/stdlib-js/stdlib/issues/3577), [#3578](https://github.com/stdlib-js/stdlib/issues/3578), [#3579](https://github.com/stdlib-js/stdlib/issues/3579), [#7183](https://github.com/stdlib-js/stdlib/issues/7183)
 
 </section>
 
@@ -40,6 +40,8 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`c172409`](https://github.com/stdlib-js/stdlib/commit/c172409fd9157a89810c44307c3fa855bb3e6686) - **chore:** address commit comments [(#7262)](https://github.com/stdlib-js/stdlib/pull/7262) _(by Deepak Singh)_
+-   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
 -   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`e03ed79`](https://github.com/stdlib-js/stdlib/commit/e03ed792ae8455e5b75b1a5cf4fa39206e1e04f1) - **chore:** clean-up _(by Athan Reines)_
 -   [`8972a22`](https://github.com/stdlib-js/stdlib/commit/8972a2247dc5b6a01534851dbd276fd0b4d5f269) - **feat:** add C implementation for `stats/base/dists/erlang/stdev` [(#4249)](https://github.com/stdlib-js/stdlib/pull/4249) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
@@ -69,9 +71,11 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Deepak Singh
+-   Harsh
 -   Karan Anand
 -   Neeraj Pathak
 -   Philipp Burckhardt
