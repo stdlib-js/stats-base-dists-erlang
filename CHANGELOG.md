@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-09)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -21,6 +21,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - remove unused round dependency from benchmark task in erlang/mean
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -40,8 +50,18 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`4a9645b`](https://github.com/stdlib-js/stdlib/commit/4a9645be0b51928789f6432b404c37e65704e939) - **fix:** remove unused round dependency from benchmark task in erlang/mean _(by Philipp Burckhardt)_
 -   [`c172409`](https://github.com/stdlib-js/stdlib/commit/c172409fd9157a89810c44307c3fa855bb3e6686) - **chore:** address commit comments [(#7262)](https://github.com/stdlib-js/stdlib/pull/7262) _(by Deepak Singh)_
--   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh)_
+-   [`391830c`](https://github.com/stdlib-js/stdlib/commit/391830ccb553b0d53a43029d4aea3a07070b25df) - **docs:** replace manual `for` loop in examples [(#7170)](https://github.com/stdlib-js/stdlib/pull/7170) _(by Harsh Yadav)_
 -   [`68cf553`](https://github.com/stdlib-js/stdlib/commit/68cf553c1f2888f317e0683691b933f9c0785a5e) - **docs:** update related packages sections [(#6788)](https://github.com/stdlib-js/stdlib/pull/6788) _(by stdlib-bot)_
 -   [`e03ed79`](https://github.com/stdlib-js/stdlib/commit/e03ed792ae8455e5b75b1a5cf4fa39206e1e04f1) - **chore:** clean-up _(by Athan Reines)_
 -   [`8972a22`](https://github.com/stdlib-js/stdlib/commit/8972a2247dc5b6a01534851dbd276fd0b4d5f269) - **feat:** add C implementation for `stats/base/dists/erlang/stdev` [(#4249)](https://github.com/stdlib-js/stdlib/pull/4249) _(by Vivek Maurya, Philipp Burckhardt, stdlib-bot)_
@@ -75,7 +95,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 -   Athan Reines
 -   Deepak Singh
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Neeraj Pathak
 -   Philipp Burckhardt
