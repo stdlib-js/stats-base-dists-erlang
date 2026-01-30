@@ -2,14 +2,15 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-02)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
 ### Features
 
+-   [`521f824`](https://github.com/stdlib-js/stdlib/commit/521f824a62e2f5b14db1022e760c88f0fffdf0ad) - add C implementation for `stats/base/dists/erlang/mgf` [(#8754)](https://github.com/stdlib-js/stdlib/pull/8754)
 -   [`8972a22`](https://github.com/stdlib-js/stdlib/commit/8972a2247dc5b6a01534851dbd276fd0b4d5f269) - add C implementation for `stats/base/dists/erlang/stdev` [(#4249)](https://github.com/stdlib-js/stdlib/pull/4249)
 -   [`fbcd2cf`](https://github.com/stdlib-js/stdlib/commit/fbcd2cf2f0f35407aff9dac2e9369da05093f082) - add C implementation for `stats/base/dists/erlang/mode`   [(#4247)](https://github.com/stdlib-js/stdlib/pull/4247)
 -   [`2366eb1`](https://github.com/stdlib-js/stdlib/commit/2366eb1c8cb8c012bf0c0a03b12d12ae51b6e518) - add C implementation for `stats/base/dists/erlang/mean`   [(#4246)](https://github.com/stdlib-js/stdlib/pull/4246)
@@ -36,9 +37,9 @@
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#3569](https://github.com/stdlib-js/stdlib/issues/3569), [#3570](https://github.com/stdlib-js/stdlib/issues/3570), [#3572](https://github.com/stdlib-js/stdlib/issues/3572), [#3574](https://github.com/stdlib-js/stdlib/issues/3574), [#3577](https://github.com/stdlib-js/stdlib/issues/3577), [#3578](https://github.com/stdlib-js/stdlib/issues/3578), [#3579](https://github.com/stdlib-js/stdlib/issues/3579), [#7183](https://github.com/stdlib-js/stdlib/issues/7183)
+[#3569](https://github.com/stdlib-js/stdlib/issues/3569), [#3570](https://github.com/stdlib-js/stdlib/issues/3570), [#3572](https://github.com/stdlib-js/stdlib/issues/3572), [#3573](https://github.com/stdlib-js/stdlib/issues/3573), [#3574](https://github.com/stdlib-js/stdlib/issues/3574), [#3577](https://github.com/stdlib-js/stdlib/issues/3577), [#3578](https://github.com/stdlib-js/stdlib/issues/3578), [#3579](https://github.com/stdlib-js/stdlib/issues/3579), [#7183](https://github.com/stdlib-js/stdlib/issues/7183)
 
 </section>
 
@@ -50,6 +51,8 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`6860622`](https://github.com/stdlib-js/stdlib/commit/686062223abc7a79a5ae7f7fcc21fa93e943a101) - **bench:** refactor to use string interpolation in `stats/base/dists/erlang` [(#9941)](https://github.com/stdlib-js/stdlib/pull/9941) _(by Bhargav Dabhade)_
+-   [`521f824`](https://github.com/stdlib-js/stdlib/commit/521f824a62e2f5b14db1022e760c88f0fffdf0ad) - **feat:** add C implementation for `stats/base/dists/erlang/mgf` [(#8754)](https://github.com/stdlib-js/stdlib/pull/8754) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
 -   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
@@ -92,9 +95,10 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Bhargav Dabhade
 -   Deepak Singh
 -   Harsh Yadav
 -   Karan Anand
