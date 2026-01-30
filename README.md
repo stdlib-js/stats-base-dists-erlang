@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@deno/mod.js';
+import erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Erlang, cdf, entropy, kurtosis, logpdf, mean, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@deno/mod.js';
+import { Erlang, cdf, entropy, kurtosis, logpdf, mean, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@v0.3.0-deno/mod.js';
 ```
 
 #### erlang
@@ -129,7 +129,7 @@ var y = dist.logpdf( 0.8 );
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@deno/mod.js';
+import erlang from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-erlang@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( erlang ) );
 ```
