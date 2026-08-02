@@ -4,7 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-15)
+## Unreleased (2026-08-02)
+
+<section class="features">
+
+### Features
+
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +35,14 @@
 
 <details>
 
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
+-   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
+-   [`b8c28ee`](https://github.com/stdlib-js/stdlib/commit/b8c28ee715091e82fec21000a95fdb33fabed2fc) - **style:** add missing decimal [(#12937)](https://github.com/stdlib-js/stdlib/pull/12937) _(by Philipp Burckhardt)_
+-   [`8e421b2`](https://github.com/stdlib-js/stdlib/commit/8e421b2b823a08ff0e325792d3714d37fdf5a5da) - **style:** add missing decimal _(by Athan Reines)_
+-   [`d380d8c`](https://github.com/stdlib-js/stdlib/commit/d380d8c633b019d4bdf2f7255cec5b1e14303acc) - **docs:** fix example placement _(by Athan Reines)_
+-   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
+-   [`c622071`](https://github.com/stdlib-js/stdlib/commit/c6220711cca10efa75dad796fcd27921c2d38ca7) - **docs:** modernize `stats/base/dists/erlang/mgf` examples [(#12924)](https://github.com/stdlib-js/stdlib/pull/12924) _(by Philipp Burckhardt)_
+-   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - **feat:** add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719) _(by Kamal Singh Rautela, Neeraj Pathak, Philipp Burckhardt)_
 -   [`cae5335`](https://github.com/stdlib-js/stdlib/commit/cae53357950b4c389b0020878c268995cd79d222) - **docs:** propagate develop fixes to sibling packages [(#12736)](https://github.com/stdlib-js/stdlib/pull/12736) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
@@ -29,9 +60,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Kamal Singh Rautela
+-   Lokesh Ranjan
+-   Neeraj Pathak
 -   Om-A-osc
 -   Philipp Burckhardt
 -   anee3
