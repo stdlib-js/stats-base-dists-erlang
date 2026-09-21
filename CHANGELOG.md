@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`2e86bc4`](https://github.com/stdlib-js/stdlib/commit/2e86bc47ed207bb03af97461771625e585e216d0) - add C implementation for `stats/base/dists/erlang/pdf` [(#10554)](https://github.com/stdlib-js/stdlib/pull/10554)
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
 
@@ -21,9 +22,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571)
+[#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3575](https://github.com/stdlib-js/stdlib/issues/3575)
 
 </section>
 
@@ -35,6 +36,15 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`b57089d`](https://github.com/stdlib-js/stdlib/commit/b57089da4b646239adde37e44487601f657f92fa) - **bench:** generate arrays of random variates directly _(by Athan Reines)_
+-   [`2e86bc4`](https://github.com/stdlib-js/stdlib/commit/2e86bc47ed207bb03af97461771625e585e216d0) - **feat:** add C implementation for `stats/base/dists/erlang/pdf` [(#10554)](https://github.com/stdlib-js/stdlib/pull/10554) _(by Kamal Singh Rautela, Philipp Burckhardt, stdlib-bot)_
+-   [`473057c`](https://github.com/stdlib-js/stdlib/commit/473057cc730906f76f3558aca4dca0e02d482e73) - **test:** migrate `stats/base/dists/erlang/pdf` to ULP-based assertions [(#14787)](https://github.com/stdlib-js/stdlib/pull/14787) _(by Athan Reines)_
+-   [`d4eff30`](https://github.com/stdlib-js/stdlib/commit/d4eff3057f89b53723a48c0f7977b59fe9095fb9) - **test:** migrate `stats/base/dists/erlang/variance` to ULP-based assertions [(#14753)](https://github.com/stdlib-js/stdlib/pull/14753) _(by Athan Reines)_
+-   [`4c61025`](https://github.com/stdlib-js/stdlib/commit/4c6102592620502070d50b76855267dafd0222dd) - **test:** migrate `stats/base/dists/erlang/mean` to ULP-based assertions [(#14593)](https://github.com/stdlib-js/stdlib/pull/14593) _(by Athan Reines)_
+-   [`0527c5a`](https://github.com/stdlib-js/stdlib/commit/0527c5afed3dd53b553813783d0c2a72044a2cc9) - **test:** migrate `stats/base/dists/erlang/entropy` to ULP-based assertions [(#14438)](https://github.com/stdlib-js/stdlib/pull/14438) _(by Philipp Burckhardt)_
+-   [`149f728`](https://github.com/stdlib-js/stdlib/commit/149f7284bbb48ff1ad602454dc39d366bb7ac6be) - **test:** migrate `stats/base/dists/erlang/stdev` to ULP-based assertions [(#14439)](https://github.com/stdlib-js/stdlib/pull/14439) _(by Athan Reines)_
+-   [`b768913`](https://github.com/stdlib-js/stdlib/commit/b768913ab00423562638323ec95bb6bea56b0db9) - **test:** migrate `stats/base/dists/erlang/mode` to ULP-based assertions [(#14189)](https://github.com/stdlib-js/stdlib/pull/14189) _(by Athan Reines)_
+-   [`8500b0f`](https://github.com/stdlib-js/stdlib/commit/8500b0fd74343085c08370004e90cf35cffb360e) - **test:** migrate `stats/base/dists/erlang/skewness` to ULP-based assertions [(#14022)](https://github.com/stdlib-js/stdlib/pull/14022) _(by Athan Reines)_
 -   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - **feat:** add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt)_
 -   [`b8c28ee`](https://github.com/stdlib-js/stdlib/commit/b8c28ee715091e82fec21000a95fdb33fabed2fc) - **style:** add missing decimal [(#12937)](https://github.com/stdlib-js/stdlib/pull/12937) _(by Philipp Burckhardt)_
