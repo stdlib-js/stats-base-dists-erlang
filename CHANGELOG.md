@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`dda96ac`](https://github.com/stdlib-js/stdlib/commit/dda96accb0f858538befc379ae0820da3b9af4b2) - add C implementation for `stats/base/dists/erlang/quantile` [(#14661)](https://github.com/stdlib-js/stdlib/pull/14661)
 -   [`2e86bc4`](https://github.com/stdlib-js/stdlib/commit/2e86bc47ed207bb03af97461771625e585e216d0) - add C implementation for `stats/base/dists/erlang/pdf` [(#10554)](https://github.com/stdlib-js/stdlib/pull/10554)
 -   [`dd0ce91`](https://github.com/stdlib-js/stdlib/commit/dd0ce916cb3e3706c4784e430e501bf7d930d469) - add C implementation for `stats/base/dists/erlang/cdf` [(#11104)](https://github.com/stdlib-js/stdlib/pull/11104)
 -   [`d657500`](https://github.com/stdlib-js/stdlib/commit/d6575009529673f2cd56ae36893388ce3013f305) - add C implementation for `stats/base/dists/erlang/logpdf` [(#10719)](https://github.com/stdlib-js/stdlib/pull/10719)
@@ -36,6 +37,13 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`622f433`](https://github.com/stdlib-js/stdlib/commit/622f43311919d8e8a81396d8183bebcb441eafca) - **test:** migrate `stats/base/dists/erlang/pdf` to ULP-based assertions [(#16092)](https://github.com/stdlib-js/stdlib/pull/16092) _(by Philipp Burckhardt, Athan Reines)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
+-   [`bec39c0`](https://github.com/stdlib-js/stdlib/commit/bec39c0877559794a971bb1c64d62cbddf1280d1) - **test:** update description _(by Athan Reines)_
+-   [`dda96ac`](https://github.com/stdlib-js/stdlib/commit/dda96accb0f858538befc379ae0820da3b9af4b2) - **feat:** add C implementation for `stats/base/dists/erlang/quantile` [(#14661)](https://github.com/stdlib-js/stdlib/pull/14661) _(by Philipp Burckhardt, Karan Anand)_
+-   [`272680c`](https://github.com/stdlib-js/stdlib/commit/272680c75e71dfc7e75fc34868e153e28ba80412) - **test:** migrate `stats/base/dists/erlang/quantile` to ULP-based assertions [(#15753)](https://github.com/stdlib-js/stdlib/pull/15753) _(by Athan Reines)_
+-   [`9b56db6`](https://github.com/stdlib-js/stdlib/commit/9b56db6cc5eebc880890d283831df366913e55ea) - **test:** migrate `stats/base/dists/erlang/mgf` to ULP-based assertions [(#15632)](https://github.com/stdlib-js/stdlib/pull/15632) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b57089d`](https://github.com/stdlib-js/stdlib/commit/b57089da4b646239adde37e44487601f657f92fa) - **bench:** generate arrays of random variates directly _(by Athan Reines)_
 -   [`2e86bc4`](https://github.com/stdlib-js/stdlib/commit/2e86bc47ed207bb03af97461771625e585e216d0) - **feat:** add C implementation for `stats/base/dists/erlang/pdf` [(#10554)](https://github.com/stdlib-js/stdlib/pull/10554) _(by Kamal Singh Rautela, Philipp Burckhardt, stdlib-bot)_
 -   [`473057c`](https://github.com/stdlib-js/stdlib/commit/473057cc730906f76f3558aca4dca0e02d482e73) - **test:** migrate `stats/base/dists/erlang/pdf` to ULP-based assertions [(#14787)](https://github.com/stdlib-js/stdlib/pull/14787) _(by Athan Reines)_
@@ -70,10 +78,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Lokesh Ranjan
 -   Neeraj Pathak
 -   Om-A-osc
